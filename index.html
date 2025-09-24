@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Pest Control - Servicios de Desinsectación</title>
+</head>
+<body>
+<header class="flex justify-between items-center bg-green-400 p-4 h-auto">
+  <!-- Logo -->
+  <div class="size-24 h-28">
+    <img src="assets/logo-pest control.png" alt="logo de Pest Control">
+  </div>
+
+  <!-- Botón hamburguesa (solo en móvil) -->
+  <button id="menu-btn" class="block md:hidden text-white focus:outline-none">
+    <!-- Icono hamburguesa -->
+    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+            d="M4 6h16M4 12h16M4 18h16" />
+    </svg>
+  </button>
+
+  <!-- Navegación -->
+  <nav id="menu" class="hidden md:block">
+    <ul class="flex flex-col md:flex-row md:space-x-6 text-black font-semibold">
+      <li><a href="#" class="block py-2 hover:text-green-900">Sobre la Empresa</a></li>
+      <li><a href="#" class="block py-2 hover:text-green-900">Servicios</a></li>
+      <li><a href="#" class="block py-2 hover:text-green-900">Contáctanos</a></li>
+    </ul>
+  </nav>
+
+  <!-- Imagen lateral -->
+  <div class="size-24 hidden md:block">
+    <img src="assets/prohibido cucarachas.png" alt="cartel de prohibido insectos">
+  </div>
+</header>
+
+<script src="scripts/script.js"></script>
+</body>
+</html>
